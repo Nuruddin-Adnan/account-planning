@@ -45,6 +45,10 @@ a, a:hover {
   text-decoration: none;
 }
 
+.container {
+  max-width: 800px;
+}
+
 body {
   font-family: "MuseoSans-medium";
   color: #373837;
