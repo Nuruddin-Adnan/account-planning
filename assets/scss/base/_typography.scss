@@ -1,0 +1,6 @@
+@use '../abstracts/variables';
+
+body {
+  font-family: 'MuseoSans-medium';
+  color: variables.$color-text-dark;
+}

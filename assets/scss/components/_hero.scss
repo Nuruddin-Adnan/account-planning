@@ -1,0 +1,13 @@
+.hero {  
+    h1 {
+        font-family: 'MuseoSans-black';
+        font-size: 10vw;
+        padding: 150px 0;
+
+        @media (max-width: 991px) {
+            padding: 100px 0;
+        }
+    }
+
+     
+}
