@@ -55,15 +55,31 @@ body {
 }
 
 .bg-gray {
-  background-color: #ED1A5E;
+  background-color: #747374;
 }
 
 .bg-lightgray {
-  background-color: #ED1A5E;
+  background-color: #F6F6F7;
+}
+
+.border-purple {
+  border-color: #ED1A5E;
+}
+
+.border-gray {
+  border-color: #747374;
+}
+
+.border-lightgray {
+  border-color: #F6F6F7;
 }
 
 /*===// end of base css === */
 /*=== components css start === */
+.input-label {
+  font-size: 14px;
+}
+
 .hero h1 {
   font-family: "MuseoSans-black";
   font-size: 10vw;

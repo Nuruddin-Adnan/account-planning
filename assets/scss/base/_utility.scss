@@ -5,9 +5,21 @@
 }
 
 .bg-gray {
-    background-color: variables.$color-purple;
+    background-color: variables.$color-gray;
 }
 
 .bg-lightgray {
-    background-color: variables.$color-purple;
+    background-color: variables.$color-lightgray;
+}
+
+.border-purple {
+    border-color: variables.$color-purple;
+}
+
+.border-gray {
+    border-color: variables.$color-gray;
+}
+
+.border-lightgray {
+    border-color: variables.$color-lightgray;
 }
