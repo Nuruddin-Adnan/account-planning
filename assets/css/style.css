@@ -54,36 +54,62 @@ body {
   color: #373837;
 }
 
+.text-gray {
+  color: #747374 !important;
+}
+
+.page-title {
+  font-family: "MuseoSans-black";
+  color: #373837;
+}
+@media (max-width: 576px) {
+  .page-title {
+    font-size: 85%;
+  }
+}
+
+.section-title {
+  font-family: "MuseoSans-bold";
+  line-height: 1;
+  font-size: 14px;
+}
+
+.section-title-description {
+  font-family: "MuseoSans-regular";
+  font-size: 12px;
+  display: block;
+}
+
 .bg-purple {
-  background-color: #ED1A5E;
+  background-color: #ED1A5E !important;
 }
 
 .bg-gray {
-  background-color: #747374;
+  background-color: #747374 !important;
 }
 
 .bg-lightgray {
-  background-color: #F6F6F7;
+  background-color: #F6F6F7 !important;
 }
 
 .border-purple {
-  border-color: #ED1A5E;
+  border-color: #ED1A5E !important;
 }
 
 .border-gray {
-  border-color: #747374;
+  border-color: #747374 !important;
 }
 
 .border-lightgray {
-  border-color: #F6F6F7;
+  border-color: #F6F6F7 !important;
+}
+
+.w-60px {
+  width: 60px;
 }
 
 /*===// end of base css === */
 /*=== components css start === */
-.input-label {
-  font-size: 14px;
-}
-
 .hero h1 {
   font-family: "MuseoSans-black";
   font-size: 10vw;
@@ -93,6 +119,24 @@ body {
   .hero h1 {
     padding: 100px 0;
   }
+}
+
+.input-label {
+  font-size: 12px;
+}
+
+.table.account-table th,
+.table.account-table td {
+  font-size: 14px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-color: #D9DADA;
+}
+.table.account-table th {
+  font-size: 12px;
+}
+.table.account-table.table-xs th, .table.account-table.table-xs td {
+  padding: 0.1rem 0.5rem;
 }
 
 /*===// end of components css === */

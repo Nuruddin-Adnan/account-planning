@@ -1,0 +1,21 @@
+@use '../abstracts/variables';
+
+.table.account-table {
+    th,
+    td {
+        font-size: 14px;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        border-color: variables.$color-line;
+    }
+
+    th {
+        font-size: 12px;
+    }
+
+    &.table-xs {
+        th, td {
+            padding: .10rem .5rem;
+        }
+    }
+}

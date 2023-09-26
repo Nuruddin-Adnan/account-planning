@@ -1,25 +1,30 @@
 @use '../abstracts/variables';
 
 .bg-purple {
-    background-color: variables.$color-purple;
+    background-color: variables.$color-purple !important;
 }
 
 .bg-gray {
-    background-color: variables.$color-gray;
+    background-color: variables.$color-gray !important;
 }
 
 .bg-lightgray {
-    background-color: variables.$color-lightgray;
+    background-color: variables.$color-lightgray !important;
 }
 
 .border-purple {
-    border-color: variables.$color-purple;
+    border-color: variables.$color-purple !important;
 }
 
 .border-gray {
-    border-color: variables.$color-gray;
+    border-color: variables.$color-gray !important;
 }
 
 .border-lightgray {
-    border-color: variables.$color-lightgray;
+    border-color: variables.$color-lightgray !important;
+}
+
+// width 
+.w-60px {
+    width: 60px;
 }

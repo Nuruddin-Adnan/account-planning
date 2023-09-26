@@ -4,3 +4,28 @@ body {
   font-family: 'MuseoSans-medium';
   color: variables.$color-text-dark;
 }
+
+.text-gray {
+  color: variables.$color-gray !important;
+}
+
+.page-title {
+  font-family: 'MuseoSans-black';
+  color: variables.$color-text-dark;
+
+  @media (max-width: 576px) {
+    font-size: 85%;
+  }
+}
+
+.section-title {
+  font-family: 'MuseoSans-bold';
+  line-height: 1;
+  font-size: 14px;
+}
+
+.section-title-description {
+  font-family: 'MuseoSans-regular';
+  font-size: 12px;
+  display: block;
+}
