@@ -64,7 +64,7 @@ body {
 }
 @media (max-width: 576px) {
   .page-title {
-    font-size: 85%;
+    font-size: 100%;
   }
 }
 
@@ -146,6 +146,10 @@ body {
 
 /*===// end of components css === */
 /*=== layout css start === */
+footer img {
+  min-width: 120px;
+}
+
 /*===// end of layout css === */
 /*=== pages start === */
 /*===// end of pages  === */
