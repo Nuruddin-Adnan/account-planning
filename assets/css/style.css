@@ -125,6 +125,11 @@ body {
   font-size: 12px;
 }
 
+.form-check-input:checked {
+  background-color: #ED1A5E;
+  border-color: #ED1A5E;
+}
+
 .table.account-table th,
 .table.account-table td {
   font-size: 14px;
