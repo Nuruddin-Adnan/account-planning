@@ -1,5 +1,12 @@
 @use '../abstracts/variables';
 
+.form-control {
+    font-family: 'MuseoSans-regular';
+    &:focus {
+        box-shadow: 0 0 0 0.1rem rgba(13,110,253,.25);
+    }
+}
+
 .input-label {
     font-size: 12px;
 }
